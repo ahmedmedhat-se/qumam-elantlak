@@ -1,0 +1,175 @@
+.qumam-elantlak-blog {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+@media (min-width: 992px) {
+    .qumam-elantlak-blog {
+        padding: 100px;
+    }
+}
+
+.qumam-elantlak-blog .section-title {
+    padding-bottom: 15px;
+}
+
+.qumam-elantlak-blog .media {
+    margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+    .qumam-elantlak-blog .media {
+        margin-top: 30px;
+    }
+}
+
+.bg-sand {
+    background-color: #f5f5f6;
+}
+
+.media.qumam-elantlak-media {
+    margin-top: 30px;
+    position: relative;
+    display: block;
+}
+
+@media (min-width: 992px) {
+    .media.qumam-elantlak-media {
+        display: table;
+    }
+}
+
+.media.qumam-elantlak-media>a {
+    position: relative;
+    display: block;
+}
+
+@media (min-width: 992px) {
+    .media.qumam-elantlak-media>a {
+        display: table-cell;
+        vertical-align: top;
+        min-width: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .media.qumam-elantlak-media>a {
+        min-width: 230px;
+    }
+}
+
+.media.qumam-elantlak-media>a:before {
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    opacity: 0;
+    transform: scale(0);
+    transition: transform 0.3s ease, opacity 0.3s;
+    background-color: #0a53a131;
+    color: #fff;
+}
+
+.media.qumam-elantlak-media>a img {
+    width: 100%;
+}
+
+.media.qumam-elantlak-media:hover>a:before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.media.qumam-elantlak-media:hover .media-body h5 {
+    color: #0A52A1;
+}
+
+.media.qumam-elantlak-media:hover .media-body a.post-link {
+    color: #0A52A1;
+    text-decoration: underline;
+}
+
+.media.qumam-elantlak-media .media-body {
+    border: 1px solid #efeff3;
+    padding: 30px 30px 10px;
+    font-size: 14px;
+    background: #fff;
+    border-top: none;
+}
+
+@media (min-width: 992px) {
+    .media.qumam-elantlak-media .media-body {
+        padding: 15px 20px 10px;
+        border-top: 1px solid #efeff3;
+        border-left: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+}
+
+@media (min-width: 1200px) {
+    .media.qumam-elantlak-media .media-body {
+        padding: 30px 20px 10px;
+    }
+}
+
+.media.qumam-elantlak-media .media-body h5 {
+    transition: color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+    .media.qumam-elantlak-media .media-body h5 {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .media.qumam-elantlak-media .media-body h5 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+}
+
+.media.qumam-elantlak-media .media-body a.post-link {
+    display: block;
+    color: #222;
+    font-size: 11px;
+    padding: 23px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+@media (min-width: 992px) {
+    .media.qumam-elantlak-media .media-body a.post-link {
+        padding: 7px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .media.qumam-elantlak-media .media-body a.post-link {
+        padding: 23px 0;
+    }
+}
+
+.media.qumam-elantlak-media .media-body ul {
+    position: relative;
+    padding: 10px 0 0;
+}
+
+.media.qumam-elantlak-media .media-body ul li {
+    display: inline-block;
+    width: 49%;
+    position: relative;
+}
+
+.media.qumam-elantlak-media .media-body ul li:before {
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 0;
+    width: 1px;
+    height: 14px;
+    background: #eeeef2;
+}

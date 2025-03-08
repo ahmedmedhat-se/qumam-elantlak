@@ -1,0 +1,22 @@
+.navbar a span, .navbar .container .offcanvas-header .offcanvas-title span {
+    color: #0A52A1;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1050;
+    border-radius: 5px;
+}
+.search-results li {
+    padding: 8px;
+    cursor: pointer;
+}
+.search-results li:hover, .search-results .selected {
+    background: #0d6efd;
+    color: white;
+}

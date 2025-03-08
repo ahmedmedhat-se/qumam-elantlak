@@ -1,0 +1,24 @@
+.about {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+@media (min-width: 992px) {
+    .about {
+        padding: 100px;
+    }
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8d7da !important;
+}
+
+.table-hover tbody tr:nth-child(even):hover {
+    background-color: #cce5ff !important;
+}
