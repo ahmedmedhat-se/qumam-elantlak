@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const searchResults = document.getElementById("search-results");
     const routes = [
         { path: "/", name: "Home" },
-        { path: "../routes/services.html", name: "Services" },
         { path: "../routes/brief.html", name: "Brief" },
         { path: "../routes/about-us.html", name: "About Us" },
     ];

@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Qumam ElAntlak Technical Services - Professional air conditioner repair and maintenance services in Abu Dhabi, UAE. Trusted by customers for quality and reliability.">
+        content="ALQuma For Technology Services - Professional air conditioner repair and maintenance services in Abu Dhabi, UAE. Trusted by customers for quality and reliability.">
     <meta name="keywords"
         content="Qumam ElAntlak, air conditioner repair, AC maintenance, technical services, Abu Dhabi, UAE">
-    <meta name="author" content="Qumam ElAntlak Technical Services">
-    <meta property="og:title" content="Qumam ElAntlak Technical Services">
+    <meta name="author" content="ALQuma For Technology Services">
+    <meta property="og:title" content="ALQuma For Technology Services">
     <meta property="og:description"
         content="Professional air conditioner repair and maintenance services in Abu Dhabi, UAE.">
-    <title>Qumam ElAntlak Technical Services</title>
+    <title>ALQuma For Technology Services</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../styles/index.css">
@@ -20,7 +20,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light p-4 fixed-top shadow-sm">
-        <a class="navbar-brand text-dark" href="/">
+        <a class="navbar-brand text-dark fs-3" href="/">
             <strong><span data-key="qumamElantlakBrand"></span></strong>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
@@ -34,13 +34,10 @@
                 </div>
                 <div class="offcanvas-body justify-content-end">
                     <ul class="navbar-nav">
-                        <li class="nav-item me-2"><a class="nav-link text-dark" href="../index.html"
-                                data-key="home">Home</a>
+                        <li class="nav-item me-2"><a class="nav-link text-dark fs-5" href="/" data-key="home">Home</a>
                         </li>
-                        <li class="nav-item me-2"><a class="nav-link text-dark" href="/routes/brief.html"
-                                data-key="brief">Brief</a></li>
                         <li class="nav-item me-2">
-                            <a class="nav-link text-dark" href="/routes/about-us.html" data-key="about">About
+                            <a class="nav-link text-dark fs-5" href="../routes/about-us.html" data-key="about">About
                                 Us</a>
                         </li>
                         <li class="nav-item ms-2 me-2" id="lang-item">
@@ -48,7 +45,7 @@
                         </li>
                     </ul>
                     <div class="position-relative">
-                        <input class="form-control" type="text" id="search" placeholder="Search Here">
+                        <input class="form-control fs-5" type="text" id="search" placeholder="Search Here">
                         <ul class="list-group search-results d-none" id="search-results"></ul>
                     </div>
                 </div>
@@ -56,12 +53,45 @@
         </div>
     </nav>
 
-    <footer class="floating-components text-center text-lg-start text-white p-4 mt-3" style="background-color: #0A52A1">
+    <div class="brief">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card p-4">
+                    <h2 class="card-title text-center mb-4 fs-3" data-key="briefTitle"></h2>
+                    <p class="card-text fs-4" data-key="briefDescription"></p>
+                    <h5 class="mt-4" data-key="briefServices"></h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fs-5 fw-bold" data-key="breifServiceOne"></li>
+                        <li class="list-group-item fs-5 fw-bold" data-key="breifServiceTwo"></li>
+                        <li class="list-group-item fs-5 fw-bold" data-key="breifServiceThree"></li>
+                        <li class="list-group-item fs-5 fw-bold" data-key="breifServiceFour"></li>
+                    </ul>
+                    <div class="text-center mt-4">
+                        <p class="card-text fs-5 fw-bold" data-key="slogan"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="floating-button">
+        <button id="toggleButton"><i class="fa-solid fa-comment"></i></button>
+        <div id="options" class="options">
+            <a href="https://wa.me/+971502013618" target="_blank" id="whatsappBtn">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="tel:+971503701830" id="phoneBtn">
+                <i class="fas fa-phone"></i>
+            </a>
+        </div>
+    </div>
+
+    <footer class="floating-components text-center text-lg-start text-white p-4 mt-3">
         <section>
             <div class="container text-center text-md-start mt-5">
                 <div class="row mt-3">
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold" data-key="qumamElantlakFullName"></h6>
+                        <h6 class="text-uppercase fw-bold" data-key="alqumaFullName"></h6>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #0A52A1; height: 2px" />
                         <p data-key="description"></p>
@@ -71,16 +101,10 @@
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #0A52A1; height: 2px" />
                         <p>
-                            <a href="/routes/about-us.html" 
-                            class="text-white" data-key="services"></a>
+                            <a href="/" class="text-white" data-key="services"></a>
                         </p>
                         <p>
-                            <a href="/routes/brief.html" 
-                            class="text-white" data-key="brief"></a>
-                        </p>
-                        <p>
-                            <a href="/routes/about-us.html" 
-                            class="text-white" data-key="about"></a>
+                            <a href="../routes/about-us.html" class="text-white" data-key="about"></a>
                         </p>
                     </div>
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -101,7 +125,7 @@
                         <h6 class="text-uppercase fw-bold" data-key="contact"></h6>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #0A52A1; height: 2px" />
-                        <p data-key="abuDhabi"><i class="fas fa-home mr-3"></i></p>
+                        <p data-key="UAE"><i class="fas fa-home mr-3"></i></p>
                         <p><i class="fab fa-whatsapp mr-3"></i> +971502013618</p>
                         <p><i class="fas fa-phone mr-3"></i> +971503701830</p>
                     </div>
