@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const translations = {
         en: {
             // Header Translation
-            qumamElantlakBrand: "ALQuma",
-            alqumaFullName: "ALQuma For Technology Services",
+            qumamElantlakBrand: "ALQuma For Technical Services",
+            alqumaFullName: "ALQuma For Technical Services",
             home: "Home",
 
             // Brief Translation
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         ar: {
             // Header Translation
-            qumamElantlakBrand: "القمه",
+            qumamElantlakBrand: "شركة القمه للخدمات الفنيه",
             alqumaFullName: "شركة القمه للخدمات الفنية",
             home: "الرئيسية",
             products: "منتجاتنا",
